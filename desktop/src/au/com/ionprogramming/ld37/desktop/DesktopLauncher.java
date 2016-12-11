@@ -8,6 +8,8 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.title = "Is there room?";
+        config.width = 1200;
+        config.height = 700;
 		new LwjglApplication(new MainGame(), config);
 	}
 }

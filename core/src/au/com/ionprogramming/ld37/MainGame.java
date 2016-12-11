@@ -9,11 +9,15 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class MainGame extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
-	
+	Adventure a;
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		img = new Texture("ion.png");
+		Loader l = new Loader();
+		a = l.loadGame("adventure.txt");
+		a.next(0);
+		System.out.println(a.getMessage());
 	}
 
 	@Override
