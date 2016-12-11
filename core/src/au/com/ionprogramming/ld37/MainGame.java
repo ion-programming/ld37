@@ -8,16 +8,21 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class MainGame extends ApplicationAdapter {
 	SpriteBatch batch;
-	Texture img;
+
+	Texture bg;
+	Texture laptop;
+
 	Adventure a;
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("ion.png");
+
+		bg = new Texture("bg.png");
+		laptop = new Texture("laptop.png");
+
 		Loader l = new Loader();
 		a = l.loadGame("adventure.txt");
 		a.next(0);
-		System.out.println(a.getMessage());
 	}
 
 	@Override
@@ -25,13 +30,15 @@ public class MainGame extends ApplicationAdapter {
 		Gdx.gl.glClearColor(0, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
-		batch.draw(img, 0, 0);
+		batch.draw(bg, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+		batch.draw(laptop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		batch.end();
 	}
 	
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
+		bg.dispose();
+		laptop.dispose();
 	}
 }
