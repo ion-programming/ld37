@@ -9,9 +9,18 @@ public class GameScene{
     int id;
     String message;
     ArrayList<Option> options = new ArrayList<Option>();
+    String sfxPath;
 
     public GameScene(int id, String message){
         this.id = id;
+        this.message = message;
+    }
+
+    public void setSfxPath(String p){
+        sfxPath = p;
+    }
+
+    public void setMessage(String message){
         this.message = message;
     }
 

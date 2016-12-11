@@ -23,6 +23,8 @@ public class MainGame extends ApplicationAdapter {
 		Loader l = new Loader();
 		a = l.loadGame("adventure.txt");
 		a.next(0);
+        a.playSFX();
+
 		Text.load();
 	}
 

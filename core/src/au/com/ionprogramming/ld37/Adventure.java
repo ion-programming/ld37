@@ -38,6 +38,10 @@ public class Adventure {
         return currentScene.message;
     }
 
+    public void playSFX(){
+        MusicManager.playSFX(currentScene.sfxPath);
+    }
+
     public ArrayList<Option> getOptions(){
         return currentScene.options;
     }

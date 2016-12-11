@@ -32,7 +32,7 @@ public class Loader {
                 case 0:
                     if (line.startsWith("#")) {
                         ID = Integer.parseInt(line.substring(1));
-                        stage = 1;
+                        stage = 3;
                     } else if (line.startsWith("?")) {
                         ID = Integer.parseInt(line.substring(1));
                         stage = 2;
@@ -41,12 +41,22 @@ public class Loader {
                     }
                     break;
                 case 1:
-                    g = new GameScene(ID, line);
+                    g.setMessage(line);
                     stage = 0;
                     break;
                 case 2:
                     g.addOption(line, ID);
                     stage = 0;
+                    break;
+                case 3:
+                    g = new GameScene(ID, "");
+                    if(line.isEmpty()){
+                        g.setSfxPath(null);
+                    }
+                    else {
+                        g.setSfxPath(line);
+                    }
+                    stage = 1;
                     break;
             }
         }
