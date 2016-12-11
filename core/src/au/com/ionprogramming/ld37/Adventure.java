@@ -31,19 +31,23 @@ public class Adventure {
         for(int i = 0; i < game.size(); i++){
             if(game.get(i).id == 0){
                 currentScene = game.get(i);
+                currentScene.buildString();
+                playSFX();
             }
         }
     }
 
     public void next(int select){
         int id = currentScene.next(select);
-        System.out.println(id);
-        for(int i = 0; i < game.size(); i++){
-            if(game.get(i).id == id){
-                currentScene = game.get(i);
+        if(id != currentScene.id) {
+            for (int i = 0; i < game.size(); i++) {
+                if (game.get(i).id == id) {
+                    currentScene = game.get(i);
+                    currentScene.buildString();
+                    playSFX();
+                }
             }
         }
-
     }
 
     public String getMessage(){

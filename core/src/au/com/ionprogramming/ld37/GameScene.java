@@ -12,6 +12,8 @@ public class GameScene{
     String message;
     ArrayList<Option> options = new ArrayList<Option>();
     String sfxPath;
+    String display = "";
+    float progress = 0;
 
     public GameScene(int id, String message){
         this.id = id;
@@ -31,11 +33,18 @@ public class GameScene{
     }
 
     public void draw(SpriteBatch batch){
-        String s = message + '\n';
-        for (int n = 0; n < options.size(); n++) {
-            s += (n + 1) + "-" + options.get(n).note + '\n';
+        if(progress < display.length()) {
+            progress += 0.5f;
         }
-        Text.drawString(s, batch);
+        Text.drawString(display.substring(0, (int)progress), batch);
+    }
+
+    public void buildString(){
+        progress = 0;
+        display = message + '\n';
+        for (int n = 0; n < options.size(); n++) {
+            display += (n + 1) + "-" + options.get(n).note + '\n';
+        }
     }
 
     public int next(int select){
