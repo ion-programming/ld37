@@ -31,9 +31,9 @@ public class MainGame extends ApplicationAdapter {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
-//		batch.draw(bg, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-//		batch.draw(laptop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-		Text.drawCharacter('P', 0, 0, batch);
+		batch.draw(bg, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+		batch.draw(laptop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+		Text.drawString("You're a nose Lelloby!\nA jolly big'un\nAnd your mum is a blimin' lovely lady!\n\n\n\n\n\n\n\n\nSo take that, you son of a toot!\nI'll eat your babies you sick sack of shit! That's right, I'll nose you up big time sonny!\nMess with me again, and you'll be shat!", batch);
 		batch.end();
 	}
 	
