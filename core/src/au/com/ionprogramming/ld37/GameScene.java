@@ -1,5 +1,7 @@
 package au.com.ionprogramming.ld37;
 
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+
 import java.util.ArrayList;
 
 /**
@@ -26,6 +28,21 @@ public class GameScene{
 
     public void addOption(String text, int goTo){
         options.add(new Option(text, goTo));
+    }
+
+    public void draw(SpriteBatch batch){
+        String s = message + '\n';
+        for (int n = 0; n < options.size(); n++) {
+            s += (n + 1) + "-" + options.get(n).note + '\n';
+        }
+        Text.drawString(s, batch);
+    }
+
+    public int next(int select){
+        if(options.size() >= select){
+            return options.get(select - 1).goTo;
+        }
+        return id;
     }
 }
 

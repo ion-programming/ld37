@@ -1,5 +1,7 @@
 package au.com.ionprogramming.ld37;
 
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+
 import java.util.ArrayList;
 
 /**
@@ -25,9 +27,19 @@ public class Adventure {
         }
     }
 
-    public void next(int ID){
+    public void start(){
         for(int i = 0; i < game.size(); i++){
-            if(game.get(i).id == ID){
+            if(game.get(i).id == 0){
+                currentScene = game.get(i);
+            }
+        }
+    }
+
+    public void next(int select){
+        int id = currentScene.next(select);
+        System.out.println(id);
+        for(int i = 0; i < game.size(); i++){
+            if(game.get(i).id == id){
                 currentScene = game.get(i);
             }
         }
@@ -44,5 +56,9 @@ public class Adventure {
 
     public ArrayList<Option> getOptions(){
         return currentScene.options;
+    }
+
+    public void drawScene(SpriteBatch batch){
+        currentScene.draw(batch);
     }
 }
