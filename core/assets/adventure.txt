@@ -30,4 +30,85 @@ You open the door to see Gary the innkeeper.\n"Gombledeen, I'm glad you're home.
 ?2
 "Sorry, not right now." Close the door.
 
+#5
+
+You look down to see Gary the innkeeper.
+?3
+Go back down the stairs and see what Gary wants.
+?7
+Tell him to bugger off!
+
+#7
+
+Gary doesn't appear to notice your abuse.
+?2
+Walk back down the stairs.
+?7
+Yell at Gary again.
+
+#4
+
+You hurry out the back door but begin to tumble down. The backyard seems to have gone missing. Eventually you come to a halt and knock your head.
+?8
+Wake up.
+
+#6
+
+"With me Gombledeen, hurry now, we haven't much time! There's someone you need to meet."
+?12
+Follow Gary to his inn.
+?6
+"What's going on?"
+
+#12
+
+Gary takes you over to a table in a dark corner of the inn. A scruffy, white-bearded figure sits there. As you approach you recognise the figure as Nemenomen Zarfletop, the local wizard.
+?13
+Greet Nemenomen.
+?13
+Give him back the cursed dog paw he gave you last Christmas.
+
+#13
+
+"Gombledeen, mi'lad! Gary here tells me you've volunteered for this cheese quest! I'm afraid it's all gotten rather complicated... Gary, we'll take it from here."\nGary gives a nod and trundles off to tend the bar.\n"Gombledeen, you're coming with me!"
+?10
+Fly with Zarfletop to his mountain dwelling.
+?14
+Have a pint before you go.
+
+#14
+
+"Ready now Gombledeen? We really must hurry!"
+?10
+Fly with Zarfletop to his mountain dwelling.
+?14
+Have a pint before you go.
+
+#8
+
+You awake to see the white-bearded face of Nemenomen Zarfletop the local wizard. "Sorry lad, you tumbled into my void! I misplaced a spell and it seems to have vaporized your yard." 
+?9
+Take a moment, in memory of your prized pumpkin patch.
+?9
+Tell him to put it back!
+
+#9
+
+"I'm afraid we've got important things to do lad. You must come with me at once, to the mountains in the north!"
+?10
+Fly with Zarfletop to his mountain dwelling.
+?10
+Suggest a leisurely stroll to the mountains.
+
+#10
+
+Before you can open your mouth, Nemenomen whisks you up in his wiry wizard arms and you whiz away to his mountain cottage.\nAs you approach the snowy white cottage, Nemenomen hurls you down the rough brick chimney. Covered in soot and battered all over, you patiently wait for Nemenomen to make his entrance.
+?11
+Continue.
+
+#11
+
+Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down to business!" he says, apparently oblivious to your dislike of being thrown through a chimney.
+
+
 -
