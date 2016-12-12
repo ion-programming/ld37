@@ -41,7 +41,7 @@ public class Loader {
                     }
                     break;
                 case 1:
-                    g.setMessage(line);
+                    g.setMessage(line.replace("\\n", System.lineSeparator()));
                     stage = 0;
                     break;
                 case 2:
