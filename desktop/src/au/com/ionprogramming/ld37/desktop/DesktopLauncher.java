@@ -7,7 +7,7 @@ import au.com.ionprogramming.ld37.MainGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		config.title = "Is there room?";
+		config.title = "Gombledeen's Great Adventure!";
         config.width = 864;
         config.height = 480;
 		config.resizable = false;
