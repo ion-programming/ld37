@@ -13,7 +13,7 @@ Made by Ion Programming for the 37th Ludum Dare Jam.\n\nionprogramming.com.au\n\
 BACK
 
 #2
-
+knock.mp3
 Knock knock knock!\nSomeone is at the door.
 ?3
 Answer the door.
@@ -23,7 +23,7 @@ Exit through the back door.
 Peek through the upstairs window to see who's there.
 
 #3
-
+gombledeen.mp3
 You open the door to see Gary the innkeeper.\n"Gombledeen, I'm glad you're home. I'm in a spot of trouble, and I was hoping you could help. I haven't received my order of cheese wheels this week, and I'm worried that the chaps carting it might have run into some trouble out on the north mountain pass. Do you think you could look into it for me?"
 ?6
 "Of course." Walk outside.
@@ -39,7 +39,7 @@ Go back down the stairs and see what Gary wants.
 Tell him to bugger off!
 
 #7
-
+buggeroffgary.mp3
 Gary doesn't appear to notice your abuse.
 ?2
 Walk back down the stairs.

@@ -3,20 +3,31 @@ package au.com.ionprogramming.ld37;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 public class MainGame extends ApplicationAdapter {
 	SpriteBatch batch;
+	ShapeRenderer shapeRenderer;
 
 	Texture bg;
 	Texture laptop;
 
 	Adventure a;
+
+	int lightState = 1;
+	int timer = 0;
+
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
+
+		shapeRenderer = new ShapeRenderer();
+
+		shapeRenderer.setAutoShapeType(true);
 
 		bg = new Texture("bg.png");
 		laptop = new Texture("laptop.png");
@@ -47,6 +58,45 @@ public class MainGame extends ApplicationAdapter {
 		batch.draw(laptop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		a.drawScene(batch);
 		batch.end();
+
+		timer++;
+		if(timer >= 10){
+			timer = 0;
+			lightState++;
+			if (lightState > 3){
+				lightState = 1;
+			}
+		}
+
+		shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
+			switch (lightState){
+				case 1:
+					shapeRenderer.setColor(Color.RED);
+					shapeRenderer.rect(572, 28, 4, 8);
+					shapeRenderer.setColor(Color.BLUE);
+					shapeRenderer.rect(584, 28, 4, 8);
+					shapeRenderer.setColor(Color.GREEN);
+					shapeRenderer.rect(600, 28, 4, 8);
+					break;
+				case 2:
+					shapeRenderer.setColor(Color.GREEN);
+					shapeRenderer.rect(572, 28, 4, 8);
+					shapeRenderer.setColor(Color.RED);
+					shapeRenderer.rect(584, 28, 4, 8);
+					shapeRenderer.setColor(Color.BLUE);
+					shapeRenderer.rect(600, 28, 4, 8);
+					break;
+				case 3:
+					shapeRenderer.setColor(Color.BLUE);
+					shapeRenderer.rect(572, 28, 4, 8);
+					shapeRenderer.setColor(Color.GREEN);
+					shapeRenderer.rect(584, 28, 4, 8);
+					shapeRenderer.setColor(Color.RED);
+					shapeRenderer.rect(600, 28, 4, 8);
+					break;
+			}
+
+		shapeRenderer.end();
 	}
 	
 	@Override
