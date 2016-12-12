@@ -178,7 +178,17 @@ Start throwing rocks and abuse at the goblin.
 
 #24
 
-As you run away, the full horde emerges behind you. The sound of the goblins storming through the valley is deafening!
+As you run away, the full horde emerges behind you. The sound of the goblins storming through the valley is deafening!\nSuddenly you're on the ground, surrounded by cheese wheels and several half-eaten cheese carters. "If the goblins have already been here, then... I'm surrounded!"
+?999
+Eat as much of Gary's cheese as possible and await death's embrace in comfort.
+?25
+Crawl away in desperation.
+
+#25
+
+Sorry, we aren't very good writer's, so Gombledeen's great adventure didn't get finished.\n\nThank's for playing!
+?0
+TITLE
 
 #999
 
