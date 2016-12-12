@@ -1,6 +1,6 @@
 #0
 
-Ion Programming proudly presents...\n\nGombledeen's Great Adventure!\n\nGuide Gombledeen through his story any way you like in this thrilling text-based adventure game. Help Gombledeen choose his way by selecting options with the numbers on the keyboard.\nGood luck Gombledeen!\n
+Ion Programming proudly presents...\n\nGombledeen's Great Adventure!\n\nGuide Gombledeen through his story any way you like in this thrilling text-based adventure game. Help Gombledeen choose his way by selecting options with the numbers on the keyboard.\nGood luck Gombledeen!
 ?2
 START GAME
 ?1
@@ -8,7 +8,7 @@ ABOUT
 
 #1
 
-Made by Ion Programming for the 37th Ludum Dare Jam.\n\nionprogramming.com.au\n\nFind us on social media.\n
+Made by Ion Programming for the 37th Ludum Dare Jam.\n\nionprogramming.com.au\n\nFind us on social media.
 ?0
 BACK
 
@@ -108,9 +108,68 @@ Continue.
 
 #11
 
-Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down to business!" he says, apparently oblivious to your dislike of being thrown through a chimney.\n"Gombledeen,
-
+Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down to business!" he says, apparently oblivious to your dislike of being thrown through a chimney. He hands you a stone cold cup of tea.\n"Gombledeen, Gary has lost a shipment of cheese wheels in these mountains, and being the fine lad that you are, you've volunteered to solve the case."
+?15
+"Um..."
+?16
+"That's right."
 
 #15
+
+"Now now Gombledeen, there's no going back now!"
+?16
+"Why"
+
+#16
+
+"As we speak, a horde of northern snub-goblins is moving through the valley below my apartment. I don't know why they've come so far south this year." Zarfletop scratches his nose thoughtfully.\n"Perhaps it's the bears I released into their caves last month..."
+?17
+"And what's the problem?"
+?18
+"Bears?"
+
+#18
+
+"I was casting a spell to create magic BEANS, but I suppose somehow my swish turned into a flick, and there I was, surrounded by several dozen magic BEARS."
+?19
+"MAGIC BEARS?"
+
+#19
+
+"Goodness Gombledeen, you almost make it sound like a bad thing!" Nemenomen chuckles into his cup of tea.\n"Anyhow, back to the snub-goblin issue, as we haven't much time."
+?17
+"Go on..."
+
+#17
+
+"I suspect the loss of Gary's cheese wheels is the goblins' doing, but cheese wheels aside, these vile creatures pose a serious threat to the townsfolk! They must be dealt with, and swiftly!"
+?20
+"You're a wizard, can't you blow them up or something?"
+?21
+"What would you suggest?"
+
+#20
+
+"Well sure, I've tried, but long-range spells can be tricky! I kept hitting snow-ravens instead. Nasty business... No, I'm afraid I really am quite out of ideas Gombledeen. That's why you're here!"
+?22
+Reluctantly thank Nemenomen and exit his cottage.
+
+#21
+
+"I'm an old man Gombledeen. My thinker doesn't work quite the way it once did..."\nZarfletop snorts up a nose-full of tea as he briefly doses off.\n"Blaargh! You see what I mean! I'm afraid you'll have to deal with this yourself lad."
+?22
+Reluctantly thank Nemenomen and exit his cottage.
+
+#22
+
+As you walk outside, the sound of clanging goblin armour echo's down the valley from the north. In the distance a snowy white bird drops from the sky in a blast of red-soaked feathers. "Darn this dicky spell!"
+?23
+Proceed north, toward the snub-goblin horde.
+?24
+Walk back to town for a pint at Gary's.
+
+#24
+
+
 
 -

@@ -41,17 +41,18 @@ public class GameScene{
 
     public void buildString(){
         progress = 0;
-        display = message + '\n';
+        display = message + '\n' + '\n';
         for (int n = 0; n < options.size(); n++) {
             display += (n + 1) + "-" + options.get(n).note + '\n';
         }
+        display = Text.preProcess(display);
     }
 
     public int next(int select){
         if(options.size() >= select){
             return options.get(select - 1).goTo;
         }
-        return id;
+        return -1;
     }
 }
 

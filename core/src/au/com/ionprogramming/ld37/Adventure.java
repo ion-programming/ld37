@@ -39,7 +39,7 @@ public class Adventure {
 
     public void next(int select){
         int id = currentScene.next(select);
-        if(id != currentScene.id) {
+        if(id != -1) {
             for (int i = 0; i < game.size(); i++) {
                 if (game.get(i).id == id) {
                     currentScene = game.get(i);
