@@ -86,7 +86,7 @@ Have a pint before you go.
 
 #8
 
-You awake to see the white-bearded face of Nemenomen Zarfletop the local wizard. "Sorry lad, you tumbled into my void! I misplaced a spell and it seems to have vaporized your yard." 
+You awake to see the white-bearded face of Nemenomen Zarfletop the local wizard. "Sorry lad, you tumbled into my void! I misplaced a spell and it seems to have vaporized your yard."
 ?9
 Take a moment, in memory of your prized pumpkin patch.
 ?9
@@ -108,7 +108,9 @@ Continue.
 
 #11
 
-Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down to business!" he says, apparently oblivious to your dislike of being thrown through a chimney.
+Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down to business!" he says, apparently oblivious to your dislike of being thrown through a chimney.\n"Gombledeen,
 
+
+#15
 
 -
