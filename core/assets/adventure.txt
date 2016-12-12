@@ -165,11 +165,25 @@ Reluctantly thank Nemenomen and exit his cottage.
 As you walk outside, the sound of clanging goblin armour echo's down the valley from the north. In the distance a snowy white bird drops from the sky in a blast of red-soaked feathers. "Darn this dicky spell!"
 ?23
 Proceed north, toward the snub-goblin horde.
-?24
+?999
 Walk back to town for a pint at Gary's.
+
+#23
+
+As the sounds grow louder, you see smoke rising in the distance. You notice a small, gnarled figure standing atop a cliff to the northeast. Suddenly it let's out a piercing howl!\nYou've been spotted by a snub-goblin scout!
+?24
+Run away!
+?25
+Start throwing rocks and abuse at the goblin.
 
 #24
 
+As you run away, the full horde emerges behind you. The sound of the goblins storming through the valley is deafening!
 
+#999
+
+Gombledeen's great adventure is over...
+?0
+TITLE
 
 -
