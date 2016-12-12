@@ -1,23 +1,33 @@
 #0
-Randomize5.wav
-Welcome to the game! Play as you wish... Things could get a little... Sketchy...
-?1
-Tell me more
+
+Ion Programming proudly presents...\n\nGombledeen's Great Adventure!\n\nGuide Gombledeen through his story any way you like in this thrilling text-based adventure game. Help Gombledeen choose his way by selecting options with the numbers on the keyboard.\nGood luck Gombledeen!\n
 ?2
-Nose off...
-?999
-Piss off!
-
-#999
-
-Game Over. Shit.
+START GAME
 ?1
-Restart?
+ABOUT
 
 #1
 
-Nose
+Made by Ion Programming for the 37th Ludum Dare Jam.\n\nionprogramming.com.au\n\nFind us on social media.\n
 ?0
-Hello
+BACK
+
+#2
+
+Knock knock knock!\nSomeone is at the door.
+?3
+Answer the door.
+?4
+Exit through the back door.
+?5
+Peek through the upstairs window to see who's there.
+
+#3
+
+You open the door to see Gary the innkeeper.\n"Gombledeen, I'm glad you're home. I'm in a spot of trouble, and I was hoping you could help. I haven't received my order of cheese wheels this week, and I'm worried that the chaps carting it might have run into some trouble out on the north mountain pass. Do you think you could look into it for me?"
+?6
+"Of course." Walk outside.
+?2
+"Sorry, not right now." Close the door.
 
 -

@@ -27,6 +27,7 @@ public class Loader {
 
         while (in.hasNextLine()) {
             String line = in.nextLine().trim();
+            line = line.replace("\\n", "\n");
 
             switch(stage) {
                 case 0:
