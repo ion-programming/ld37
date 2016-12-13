@@ -165,7 +165,7 @@ goblinarmour.mp3
 As you walk outside, the sound of clanging goblin armour echo's down the valley from the north. In the distance a snowy white bird drops from the sky in a blast of red-soaked feathers. "Darn this dicky spell!"
 ?23
 Proceed north, toward the snub-goblin horde.
-?999
+?26
 Walk back to town for a pint at Gary's.
 
 #23
@@ -181,14 +181,42 @@ Start throwing rocks and abuse at the goblin.
 As you run away, the full horde emerges behind you. The sound of the goblins storming through the valley is deafening!\nSuddenly you're on the ground, surrounded by cheese wheels and several half-eaten cheese carters. "If the goblins have already been here, then... I'm surrounded!"
 ?999
 Eat as much of Gary's cheese as possible and await death's embrace in comfort.
-?25
+?29
 Crawl away in desperation.
 
 #25
 
-Sorry, we aren't very good writer's, so Gombledeen's great adventure didn't get finished.\n\nThank's for playing!
+One of your rocks cracks the scout on the head before he can alert the rest of his horde. He falls from the cliff-top with a satisfying crunch.
+?27
+Use the body as a meat shield to charge the goblin horde.
+
+#27
+
+As the horde comes into view, they see you holding the mangled body of their friend. Several of the goblins appear to break down in tears. With a great shriek the entire force of the horde comes after you!
+?24
+Run away!
+?29
+Keep charging!
+
+#29
+
+The snub-goblins stop dead in their tracks. A silence falls over the valley. All of a sudden, they turn their backs and scatter in fear.\nYou hear quacking coming from behind. You turn to see the valley filled with old man Lelloby's geese! They must have broken free and sensed a threat to the town.
+?28
+Ride with the geese and chase the goblins back to their bear infested caves to die.
+
+#28
+
+Well done!\nYou didn't really do anything helpful, but the town is saved, and the bears are full and happy!\nYou go back to Gary's for a pint.
 ?0
 TITLE
+
+#26
+
+You guzzle a delicious pint of Gary's best.
+?23
+Proceed north, toward the sound of the snub-goblin horde.
+?26
+Have another pint.
 
 #999
 
