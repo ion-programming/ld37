@@ -47,13 +47,13 @@ Walk back down the stairs.
 Yell at Gary again.
 
 #4
-
+ouch.mp3
 You hurry out the back door but begin to tumble down. The backyard seems to have gone missing. Eventually you come to a halt and knock your head.
 ?8
 Wake up.
 
 #6
-
+hurrynow.mp3
 "With me Gombledeen, hurry now, we haven't much time! There's someone you need to meet."
 ?12
 Follow Gary to his inn.
@@ -61,7 +61,7 @@ Follow Gary to his inn.
 "What's going on?"
 
 #12
-
+innnoise.mp3
 Gary takes you over to a table in a dark corner of the inn. A scruffy, white-bearded figure sits there. As you approach you recognise the figure as Nemenomen Zarfletop, the local wizard.
 ?13
 Greet Nemenomen.
@@ -69,7 +69,7 @@ Greet Nemenomen.
 Give him back the cursed dog paw he gave you last Christmas.
 
 #13
-
+gombledeenmelad.mp3
 "Gombledeen, mi'lad! Gary here tells me you've volunteered for this cheese quest! I'm afraid it's all gotten rather complicated... Gary, we'll take it from here."\nGary gives a nod and trundles off to tend the bar.\n"Gombledeen, you're coming with me!"
 ?10
 Fly with Zarfletop to his mountain dwelling.
@@ -77,7 +77,7 @@ Fly with Zarfletop to his mountain dwelling.
 Have a pint before you go.
 
 #14
-
+gulpgulp.mp3
 "Ready now Gombledeen? We really must hurry!"
 ?10
 Fly with Zarfletop to his mountain dwelling.
@@ -85,7 +85,7 @@ Fly with Zarfletop to his mountain dwelling.
 Have a pint before you go.
 
 #8
-
+sorrylad.mp3
 You awake to see the white-bearded face of Nemenomen Zarfletop the local wizard. "Sorry lad, you tumbled into my void! I misplaced a spell and it seems to have vaporized your yard."
 ?9
 Take a moment, in memory of your prized pumpkin patch.
@@ -93,7 +93,7 @@ Take a moment, in memory of your prized pumpkin patch.
 Tell him to put it back!
 
 #9
-
+flywithmeboy.mp3
 "I'm afraid we've got important things to do lad. You must come with me at once, to the mountains in the north!"
 ?10
 Fly with Zarfletop to his mountain dwelling.
@@ -101,7 +101,7 @@ Fly with Zarfletop to his mountain dwelling.
 Suggest a leisurely stroll to the mountains.
 
 #10
-
+woosh.mp3
 Before you can open your mouth, Nemenomen whisks you up in his wiry wizard arms and you whiz away to his mountain cottage.\nAs you approach the snowy white cottage, Nemenomen hurls you down the rough brick chimney. Covered in soot and battered all over, you patiently wait for Nemenomen to make his entrance.
 ?11
 Continue.
@@ -115,7 +115,7 @@ Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down
 "That's right."
 
 #15
-
+nownowgombledeen.mp3
 "Now now Gombledeen, there's no going back now!"
 ?16
 "Why"
@@ -135,7 +135,7 @@ Zarfletop walks in the front door and pulls up an ugly looking stool. "Now, down
 "MAGIC BEARS?"
 
 #19
-
+chuckle.mp3
 "Goodness Gombledeen, you almost make it sound like a bad thing!" Nemenomen chuckles into his cup of tea.\n"Anyhow, back to the snub-goblin issue, as we haven't much time."
 ?17
 "Go on..."
@@ -161,7 +161,7 @@ Reluctantly thank Nemenomen and exit his cottage.
 Reluctantly thank Nemenomen and exit his cottage.
 
 #22
-
+goblinarmour.mp3
 As you walk outside, the sound of clanging goblin armour echo's down the valley from the north. In the distance a snowy white bird drops from the sky in a blast of red-soaked feathers. "Darn this dicky spell!"
 ?23
 Proceed north, toward the snub-goblin horde.
@@ -169,7 +169,7 @@ Proceed north, toward the snub-goblin horde.
 Walk back to town for a pint at Gary's.
 
 #23
-
+goblinhowl.mp3
 As the sounds grow louder, you see smoke rising in the distance. You notice a small, gnarled figure standing atop a cliff to the northeast. Suddenly it let's out a piercing howl!\nYou've been spotted by a snub-goblin scout!
 ?24
 Run away!
