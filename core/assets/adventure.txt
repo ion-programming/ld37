@@ -177,7 +177,7 @@ Run away!
 Start throwing rocks and abuse at the goblin.
 
 #24
-
+loudgoblins.mp3
 As you run away, the full horde emerges behind you. The sound of the goblins storming through the valley is deafening!\nSuddenly you're on the ground, surrounded by cheese wheels and several half-eaten cheese carters. "If the goblins have already been here, then... I'm surrounded!"
 ?999
 Eat as much of Gary's cheese as possible and await death's embrace in comfort.
@@ -185,13 +185,13 @@ Eat as much of Gary's cheese as possible and await death's embrace in comfort.
 Crawl away in desperation.
 
 #25
-
+crunch.mp3
 One of your rocks cracks the scout on the head before he can alert the rest of his horde. He falls from the cliff-top with a satisfying crunch.
 ?27
 Use the body as a meat shield to charge the goblin horde.
 
 #27
-
+shriek.mp3
 As the horde comes into view, they see you holding the mangled body of their friend. Several of the goblins appear to break down in tears. With a great shriek the entire force of the horde comes after you!
 ?24
 Run away!
@@ -205,7 +205,7 @@ The snub-goblins stop dead in their tracks. A silence falls over the valley. All
 Continue.
 
 #30
-
+geese.mp3
 You hear quacking coming from behind. You turn to see the valley filled with old man Lelloby's geese! They must have broken free and sensed a threat to the town.
 ?28
 Ride with the geese and chase the goblins back to their bear infested caves to die.
