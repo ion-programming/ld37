@@ -200,18 +200,24 @@ Keep charging!
 
 #29
 
-The snub-goblins stop dead in their tracks. A silence falls over the valley. All of a sudden, they turn their backs and scatter in fear.\nYou hear quacking coming from behind. You turn to see the valley filled with old man Lelloby's geese! They must have broken free and sensed a threat to the town.
+The snub-goblins stop dead in their tracks. A silence falls over the valley. All of a sudden, they turn their backs and scatter in fear.
+?30
+Continue.
+
+#30
+
+You hear quacking coming from behind. You turn to see the valley filled with old man Lelloby's geese! They must have broken free and sensed a threat to the town.
 ?28
 Ride with the geese and chase the goblins back to their bear infested caves to die.
 
 #28
-
+gulpgulp.mp3
 Well done!\nYou didn't really do anything helpful, but the town is saved, and the bears are full and happy!\nYou go back to Gary's for a pint.
 ?0
 TITLE
 
 #26
-
+gulpgulp.mp3
 You guzzle a delicious pint of Gary's best.
 ?23
 Proceed north, toward the sound of the snub-goblin horde.
