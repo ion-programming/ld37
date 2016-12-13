@@ -9,12 +9,14 @@ import com.badlogic.gdx.audio.Sound;
  */
 public class MusicManager {
 
-//    private static Music bg = Gdx.audio.newMusic(Gdx.files.internal("music/SWAGGER STAGGER.mp3"));
+    private static Music bg = Gdx.audio.newMusic(Gdx.files.internal("sfx/tune_converted.mp3"));
     private static Sound sound;
 
-//    public static void playMusic(){
-//        bg.play();
-//    }
+    public static void playMusic(){
+        bg.setLooping(true);
+        bg.setVolume(0.1f);
+        bg.play();
+    }
 
     public static void playSFX(String path){
         if(path != null) {
